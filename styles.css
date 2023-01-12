@@ -1,0 +1,96 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 139, 31);
+    background-color: black;
+}
+
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    flex: 1;
+}
+
+.visual {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img {
+    max-width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.mainpage {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 60vw;
+    height: 100vh;
+    position: relative;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.register {
+    margin: 20 80px;
+    font-size: 24px;;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+input {
+    line-height: 20px;
+}
+
+label {
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 10px;
+}
+
+.bottom {
+    position: relative;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10;
+}
+
+a:link {
+    color:rgb(255, 139, 31)
+}
+
+a:visited {
+    color:rgb(221, 109, 5)
+}
