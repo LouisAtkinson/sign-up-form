@@ -24,19 +24,25 @@ body {
     flex-direction: column;
 }
 
-
-
 img {
     max-width: 40vw;
     height: 100vh;
     object-fit: cover;
 }
 
+.top {
+    margin: 0 50px 100px;
+}
+
+.text {
+    font-size: 20px;;
+}
+
 .mainpage {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     max-width: 60vw;
     height: 100vh;
@@ -51,8 +57,8 @@ img {
 }
 
 .register {
-    margin: 20 80px;
-    font-size: 24px;;
+    margin: 0 80px;
+    font-size: 24px;
 }
 
 form {
@@ -60,6 +66,7 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;
+    margin: 15 0 50px 0;
 }
 
 input {
@@ -80,6 +87,25 @@ label {
 
 .bottom {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 20px;
+    color: rgb(255, 139, 31);
+    background-color: black;
+    border: solid rgb(255, 139, 31) 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.already {
+    font-size: 20px;
 }
 
 .credit {
